@@ -36,3 +36,5 @@ for i = 1:k
     labels(idxs) = i;
     centroids(:,i) = mean(X(:,idxs),2);
 end
+
+end
