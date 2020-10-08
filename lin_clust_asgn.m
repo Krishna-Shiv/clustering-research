@@ -1,4 +1,4 @@
-function [E] = ling_clust_asgn(X,k)
+function [E] = lin_clust_asgn(X,k)
 
 beta = 0.8;
 [~,n] = size(X);
