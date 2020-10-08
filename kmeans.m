@@ -1,4 +1,4 @@
-function [E,revised_centroids] = iterative_kmeans(X,k)
+function [E,revised_centroids] = kmeans(X,k)
 
 [~,n] = size(X); %capture size of X matrix
 I = eye(k);
